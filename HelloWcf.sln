@@ -5,6 +5,29 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldService", "HelloWorldService\HelloWorldService.csproj", "{916805D9-4A4B-4037-917B-530D2FDE8CB4}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HostExpressServer", "http://localhost:51733", "{BD8A84F8-B515-4A8B-B00C-04D153F5916B}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{916805d9-4a4b-4037-917b-530d2fde8cb4}|HelloWorldService.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51733"
+		Debug.AspNetCompiler.PhysicalPath = "HostExpressServer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51733\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51733"
+		Release.AspNetCompiler.PhysicalPath = "HostExpressServer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51733\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "HostExpressServer\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +38,10 @@ Global
 		{916805D9-4A4B-4037-917B-530D2FDE8CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{916805D9-4A4B-4037-917B-530D2FDE8CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{916805D9-4A4B-4037-917B-530D2FDE8CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD8A84F8-B515-4A8B-B00C-04D153F5916B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8A84F8-B515-4A8B-B00C-04D153F5916B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD8A84F8-B515-4A8B-B00C-04D153F5916B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8A84F8-B515-4A8B-B00C-04D153F5916B}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
