@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\SvcUtil.exe" http://localhost:51733/HostExpressServer/helloWorldService.svc?wsdl /out:HelloWorldServiceRef.cs /config:app.config
